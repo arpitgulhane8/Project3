@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link href="calculator.css" rel="css stylesheet">
+</head>
+<body>
+<div class="calculator">
+    <input id="display" placeholder="0"  readonly>
+    <div class="button">
+       <button onclick="aadtodisplay('7')">7</buttton>
+       <button onclick="aadtodisplay('8')">8</buttton>
+       <button onclick="aadtodisplay('9')">9</buttton>
+       <button onclick="deletefromdisplay()" id="del">DEL</buttton>
+       <button onclick="aadtodisplay('4')">4</buttton>
+       <button onclick="aadtodisplay('5')">5</buttton>
+       <button onclick="aadtodisplay('6')">6</buttton>
+       <button onclick="aadtodisplay('+')">+</buttton>
+       <button onclick="aadtodisplay('1')">1</buttton>
+       <button onclick="aadtodisplay('2')">2</buttton>
+       <button onclick="aadtodisplay('3')">3</buttton>
+       <button onclick="aadtodisplay('-')">-</buttton>
+       <button onclick="aadtodisplay('.')">.</buttton>
+       <button onclick="aadtodisplay('0')">0</buttton>
+       <button onclick="aadtodisplay('/')">/</buttton>
+       <button onclick="aadtodisplay('*')">*</buttton>
+       <button onclick="cleardisplay()" id="reset">RESET</buttton>
+       <button onclick="calculate()" id="equal">=</buttton>
+    </div> 
+</div>     
+        <script src="script.js"></script>
+</body>
+</html>
